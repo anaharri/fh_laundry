@@ -1,0 +1,556 @@
+[
+  {
+    "id": 1,
+    "departamento": "Studio in Palermo Hollywood, Carranza St.",
+    "direccion": "Carranza 2025",
+    "unidad": "1C"
+  },
+  {
+    "id": 2,
+    "departamento": "Apartment in Palermo Hollywood, Bonpland St.",
+    "direccion": "Bonpland 2251",
+    "unidad": "8B"
+  },
+  {
+    "id": 3,
+    "departamento": "New and cozy 2 bedroom apt - Palermo Hollywood",
+    "direccion": "Ciudad de La Paz 199",
+    "unidad": "2A"
+  },
+  {
+    "id": 4,
+    "departamento": "Apartment in Palermo, Ciudad de La Paz St.",
+    "direccion": "Ciudad de La Paz 180",
+    "unidad": "1A"
+  },
+  {
+    "id": 5,
+    "departamento": "Flat in Cañitas, Ortega St.",
+    "direccion": "Ortega y Gasset 1938",
+    "unidad": "1A"
+  },
+  {
+    "id": 6,
+    "departamento": "Apartment in Palermo Hollywood, Paraguay St. (6)",
+    "direccion": "Paraguay 5549",
+    "unidad": "1B"
+  },
+  {
+    "id": 7,
+    "departamento": "Apartment in Colegiales, Ciudad de La Paz St.",
+    "direccion": "Ciudad de La Paz 1234",
+    "unidad": "7B"
+  },
+  {
+    "id": 8,
+    "departamento": "Studio in Palermo Hollywood, Ciudad de La Paz St.",
+    "direccion": "Ciudad de La Paz 151",
+    "unidad": "2 201"
+  },
+  {
+    "id": 9,
+    "departamento": "Apartment in Palermo Soho, Oro St.",
+    "direccion": "Fray Justo Santa Maria de Oro 1939",
+    "unidad": 5
+  },
+  {
+    "id": 10,
+    "departamento": "Loft in Palermo Soho, Uriarte St. (10)",
+    "direccion": "Uriarte 1719",
+    "unidad": 7
+  },
+  {
+    "id": 11,
+    "departamento": "Studio in Palermo, Julian Alvarez St. (11)",
+    "direccion": "Julián Álvarez 1674",
+    "unidad": 602
+  },
+  {
+    "id": 12,
+    "departamento": "Apartment in Palermo, Dorrego Av",
+    "direccion": "Dorrego 2992",
+    "unidad": "2A"
+  },
+  {
+    "id": 13,
+    "departamento": "Apartment in Palermo, Billinghurst St.",
+    "direccion": "Billinghurst 2436",
+    "unidad": "7D"
+  },
+  {
+    "id": 14,
+    "departamento": "Apartment in Recoleta, Billinghurst St.",
+    "direccion": "Billinghurst 2363",
+    "unidad": "5C "
+  },
+  {
+    "id": 15,
+    "departamento": "Apartment in Recoleta, Azcuenaga St. (15)",
+    "direccion": "Azcuénaga 1592",
+    "unidad": "PB B"
+  },
+  {
+    "id": 16,
+    "departamento": "Sunny and superb flat in Palermo",
+    "direccion": "Peña 3073",
+    "unidad": "7D "
+  },
+  {
+    "id": 17,
+    "departamento": "Big House in Palermo, 8bed / 4bath",
+    "direccion": "Billinghurst 1411",
+    "unidad": "- "
+  },
+  {
+    "id": 18,
+    "departamento": "Flat in Recoleta, Bustamante St. (18)",
+    "direccion": "Sánchez de Bustamante 2294",
+    "unidad": "4A "
+  },
+  {
+    "id": 19,
+    "departamento": "Studio in Palermo, Bustamante St. (19)",
+    "direccion": "Sánchez de Bustamante 1690",
+    "unidad": "5E "
+  },
+  {
+    "id": 20,
+    "departamento": "Flat in Recoleta with parking, Juncal St. (20)",
+    "direccion": "Juncal 2835",
+    "unidad": "4B "
+  },
+  {
+    "id": 21,
+    "departamento": "Flat in Recoleta with parking, Juncal St. (21)",
+    "direccion": "Juncal 2835",
+    "unidad": "4A"
+  },
+  {
+    "id": 22,
+    "departamento": "Flat in Recoleta, Arenales St. (22)",
+    "direccion": "Arenales 1407",
+    "unidad": "4A"
+  },
+  {
+    "id": 23,
+    "departamento": "Apartment in Recoleta, Peña St.",
+    "direccion": "Peña 2811",
+    "unidad": "1A"
+  },
+  {
+    "id": 24,
+    "departamento": "Apartment in Recoleta, Aguero St.",
+    "direccion": "Aguero 1938",
+    "unidad": "5-15 o"
+  },
+  {
+    "id": 25,
+    "departamento": "Apartment in Recoleta, Ayacucho St. (25)",
+    "direccion": "Ayacucho 1474",
+    "unidad": "4E"
+  },
+  {
+    "id": 26,
+    "departamento": "Hermoso departamento100% renovado",
+    "direccion": "Santa Fe 3228",
+    "unidad": "1C"
+  },
+  {
+    "id": 27,
+    "departamento": "Apartment in Recoleta, Junin St.",
+    "direccion": "Junin 1369",
+    "unidad": "1D"
+  },
+  {
+    "id": 28,
+    "departamento": "Estudio nuevo y luminoso con balcón en Palermo!",
+    "direccion": "Ciudad de La Paz 151",
+    "unidad": "2 203"
+  },
+  {
+    "id": 29,
+    "departamento": "Apartment in Retiro, Basavilbaso St.",
+    "direccion": "Basavilvaso 1393",
+    "unidad": "11B "
+  },
+  {
+    "id": 30,
+    "departamento": "Modern downtown apt, best location to explore BA!",
+    "direccion": "Viamonte 1815",
+    "unidad": "5F"
+  },
+  {
+    "id": 31,
+    "departamento": "Studio in Monserrat, Independencia St. (31)",
+    "direccion": "Santiago del Estero 831",
+    "unidad": "7G"
+  },
+  {
+    "id": 32,
+    "departamento": "Flat in Almagro, Bustamante St. (32)",
+    "direccion": "Sánchez de Bustamante 515",
+    "unidad": "9D"
+  },
+  {
+    "id": 33,
+    "departamento": "Flat in San Telmo, Venezuela St. (33)",
+    "direccion": "Venezuela 421",
+    "unidad": "3 9"
+  },
+  {
+    "id": 34,
+    "departamento": "Apartment in Retiro, Esmeralda St. (34)",
+    "direccion": "Esmeralda 847",
+    "unidad": "16A"
+  },
+  {
+    "id": 35,
+    "departamento": "Flat in Palermo Chico, Demaria St. (35)",
+    "direccion": "Demaria 4721",
+    "unidad": "11 04"
+  },
+  {
+    "id": 36,
+    "departamento": "Studio in Palermo, Sinclair St.",
+    "direccion": "Sinclair 3161",
+    "unidad": "5B"
+  },
+  {
+    "id": 37,
+    "departamento": "Apartment in Recoleta, Pacheco de Melo St.",
+    "direccion": "Pacheco de Melo 2420",
+    "unidad": "2B "
+  },
+  {
+    "id": 38,
+    "departamento": "Recoleta reciclado cerca de Fundación Barceló",
+    "direccion": "Agüero 2219",
+    "unidad": "7 16"
+  },
+  {
+    "id": 39,
+    "departamento": "Studio in Palermo Hollywood, Fitz Roy St.",
+    "direccion": "Fitz Roy 2070",
+    "unidad": "6 601"
+  },
+  {
+    "id": 40,
+    "departamento": "House in Palermo Hollywood, Fitz Roy St.",
+    "direccion": "Fitz Roy 2369",
+    "unidad": ""
+  },
+  {
+    "id": 41,
+    "departamento": "Apartment in Villa Crespo, Velazco St.",
+    "direccion": "Juan Ramirez de Velazco 631",
+    "unidad": "PB, C"
+  },
+  {
+    "id": 42,
+    "departamento": "Studio in Belgrano, Roosevelt St.",
+    "direccion": "Franklin Roosvelt 1712",
+    "unidad": "2B"
+  },
+  {
+    "id": 43,
+    "departamento": "Flat in Acassuso, private parking, 2 rooms.",
+    "direccion": "Av Santa Fe",
+    "unidad": ""
+  },
+  {
+    "id": 44,
+    "departamento": "Flat in Recoleta, Alvear Av",
+    "direccion": "Av Alvear 1749",
+    "unidad": "6C"
+  },
+  {
+    "id": 45,
+    "departamento": "Apartment in Palermo, Bulnes St.",
+    "direccion": "Bulnes 2631",
+    "unidad": "5B"
+  },
+  {
+    "id": 48,
+    "departamento": "Luxury flat in Recoleta, Montevideo St.",
+    "direccion": "Montevideo 1404",
+    "unidad": "11A "
+  },
+  {
+    "id": 50,
+    "departamento": "Flat in Palermo, Juncal St",
+    "direccion": "Juncal 4690",
+    "unidad": "3 2"
+  },
+  {
+    "id": 51,
+    "departamento": "Flat in Belgrano, 4bed / 3 bath",
+    "direccion": "Zapiola 2260",
+    "unidad": 6
+  },
+  {
+    "id": 52,
+    "departamento": "Apartment in Belgrano, La Pampa St.",
+    "direccion": "La Pampa 2010",
+    "unidad": "5D"
+  },
+  {
+    "id": 53,
+    "departamento": "Flat in Retiro, Esmeralda St.",
+    "direccion": "Esmeralda 1271",
+    "unidad": "8A"
+  },
+  {
+    "id": 54,
+    "departamento": "Apartment in Palermo, Ugarteche St",
+    "direccion": "Ugarteche 2820",
+    "unidad": "1 13"
+  },
+  {
+    "id": 55,
+    "departamento": "Flat in Retiro, Libertador Av",
+    "direccion": "Av del Libertador 356",
+    "unidad": "7B"
+  },
+  {
+    "id": 59,
+    "departamento": "Luxury Apartment close to Recoleta-Catalinas",
+    "direccion": "Basavilbaso 1393",
+    "unidad": "16 A"
+  },
+  {
+    "id": 60,
+    "departamento": "Apartment in Recoleta, French St.",
+    "direccion": "French 3016",
+    "unidad": "6 B"
+  },
+  {
+    "id": 61,
+    "departamento": "Apartment in Retiro, Esmeralda St",
+    "direccion": "Esmeralda 718",
+    "unidad": "9A "
+  },
+  {
+    "id": 62,
+    "departamento": "Flat in Palermo Hollywood",
+    "direccion": "Fray Justo Santa Maria de Oro 1939",
+    "unidad": 4
+  },
+  {
+    "id": 63,
+    "departamento": "Studio in Palermo Hollywood, Av Cordoba",
+    "direccion": "Av Cordoba 5515",
+    "unidad": "64 (6D) "
+  },
+  {
+    "id": 64,
+    "departamento": "Studio in Mar Del Plata",
+    "direccion": "Av Colon 967",
+    "unidad": "1B "
+  },
+  {
+    "id": 65,
+    "departamento": "Apartment in Mar Del Plata",
+    "direccion": "Av Colon 967",
+    "unidad": "5D "
+  },
+  {
+    "id": 66,
+    "departamento": "Apartment in Tigre with parking (66)",
+    "direccion": "Sáenz Peña 1267, Tigre",
+    "unidad": "4A"
+  },
+  {
+    "id": 67,
+    "departamento": "Luxury apart in Recoleta (67) Casa Bevant",
+    "direccion": "Vicente López 1827",
+    "unidad": ""
+  },
+  {
+    "id": 68,
+    "departamento": "Apartment w/ garden in the heart of Palermo",
+    "direccion": "Malabia 2330",
+    "unidad": "PB"
+  },
+  {
+    "id": 70,
+    "departamento": "Apartment in Barrio Norte, Ayacucho St.",
+    "direccion": "Ayacucho 2171",
+    "unidad": "PB 1"
+  },
+  {
+    "id": 72,
+    "departamento": "Flat in Palermo Soho, Guemes St. 2Bed/2,5Bath",
+    "direccion": "Guemes 4474",
+    "unidad": "9-903"
+  },
+  {
+    "id": 73,
+    "departamento": "Flat in Palermo, Guemes St.",
+    "direccion": "Guemes 4289",
+    "unidad": "4B"
+  },
+  {
+    "id": 74,
+    "departamento": "Apartment in Beccar, Centenario Av",
+    "direccion": "Av Centenario 2",
+    "unidad": "3B"
+  },
+  {
+    "id": 75,
+    "departamento": "Apartment in San Isidro, Diego Palma St.",
+    "direccion": "Diego Palma 121",
+    "unidad": "2C"
+  },
+  {
+    "id": 76,
+    "departamento": "Flat in Palermo Chico, Juan F. Segui St.",
+    "direccion": "Juan Francisco Segui 3524",
+    "unidad": "16F "
+  },
+  {
+    "id": 77,
+    "departamento": "Flat in Recoleta, Parana St.",
+    "direccion": "Parana 1247",
+    "unidad": "6A "
+  },
+  {
+    "id": 78,
+    "departamento": "Studio in Palermo Hollywood, Cordoba Av.",
+    "direccion": "Av Cordoba 5579",
+    "unidad": 802
+  },
+  {
+    "id": 79,
+    "departamento": "Studio in Palermo Hollywood, Cordoba Av.",
+    "direccion": "Av Cordoba 5579",
+    "unidad": 803
+  },
+  {
+    "id": 80,
+    "departamento": "Apartment in Vicente Lopez, Horizons Tower",
+    "direccion": "Juan Carlos Cruz 1652",
+    "unidad": "Fresia, 701"
+  },
+
+  {
+    "id": 81,
+    "departamento": "Flat in Palermo Chico, Libertador Av (81)",
+    "direccion": "Libertador 2355",
+    "unidad": 5
+  },
+  {
+    "id": 82,
+    "departamento": "Apartment in Recoleta, Quintana St.",
+    "direccion": "Quintana 282",
+    "unidad": "8F "
+  },
+  {
+    "id": 83,
+    "departamento": "Studio in Barrio Norte, Posadas St.",
+    "direccion": "Posadas 1323",
+    "unidad": "9A "
+  },
+  {
+    "id": 84,
+    "departamento": "Apartment in Recoleta, Juncal St.",
+    "direccion": "Juncal 2037",
+    "unidad": "5N "
+  },
+  {
+    "id": 85,
+    "departamento": "Apartment in Palermo, Juncal St",
+    "direccion": "Juncal 3706",
+    "unidad": "17 D "
+  },
+  {
+    "id": 86,
+    "departamento": "Flat in Recoleta, Rodriguez Peña St.",
+    "direccion": "Rodriguez Peña 2087",
+    "unidad": "13 B"
+  },
+  {
+    "id": 87,
+    "departamento": "Studio in Palermo Hollywood, Cordoba Av.",
+    "direccion": "Av Cordoba 5579",
+    "unidad": 702
+  },
+  {
+    "id": 88,
+    "departamento": "Studio in Palermo Hollywood, Cordoba Av.",
+    "direccion": "Av Cordoba 5579",
+    "unidad": 603
+  },
+  {
+    "id": 89,
+    "departamento": "Studio in Palermo Hollywood, Honduras St.",
+    "direccion": "Honduras 6080",
+    "unidad": 405
+  },
+  {
+    "id": 90,
+    "departamento": "Studio in Palermo Hollywood, Fitz Roy St.",
+    "direccion": "Fitz Roy 2070",
+    "unidad": 401
+  },
+  {
+    "id": 91,
+    "departamento": "Studio in Palermo Hollywood, Honduras St.",
+    "direccion": "Honduras 6080",
+    "unidad": 404
+  },
+  {
+    "id": 92,
+    "departamento": "Flat in Torre Bellini",
+    "direccion": "Salguero 2750",
+    "unidad": "24 - 01 "
+  },
+  {
+    "id": 93,
+    "departamento": "House in Belgrano, Husares St.",
+    "direccion": "Husares 1922",
+    "unidad": "- "
+  },
+  {
+    "id": 94,
+    "departamento": "Apartment in Palermo Hollywood, Dorrego Av",
+    "direccion": "Av Dorrego 1771",
+    "unidad": 703
+  },
+  {
+    "id": 95,
+    "departamento": "Flat in Palermo, Santa Fe Av.",
+    "direccion": "Av Santa Fe 3918",
+    "unidad": 3
+  },
+  {
+    "id": 96,
+    "departamento": "Loft in Palermo Soho, Niceto Vega Av.",
+    "direccion": "Av Cnel Niceto Vega 5238",
+    "unidad": "3C"
+  },
+  {
+    "id": 101,
+    "departamento": "Brand Boutique Apartment in Palermo Soho - 101",
+    "direccion": "Godoy Cruz 1517",
+    "unidad": 101
+  },
+  {
+    "id": 102,
+    "departamento": "Brand Boutique Apartment in Palermo Soho - 102",
+    "direccion": "Godoy Cruz 1517",
+    "unidad": 102
+  },
+  {
+    "id": 201,
+    "departamento": "Brand Boutique Apartment in Palermo Soho - 201",
+    "direccion": "Godoy Cruz 1517",
+    "unidad": 201
+  },
+
+  {
+    "id": 202,
+    "departamento": "Brand Boutique Apartment in Palermo Soho - 202",
+    "direccion": "Godoy Cruz 1517",
+    "unidad": 202
+  }
+]
