@@ -1,7 +1,6 @@
-import "./App.css";
-import { db } from "./firebaseconf";
-import { useState } from "react";
 import { addDoc, collection } from "firebase/firestore";
+import { useState } from "react";
+import { db } from "../firebaseconf.js";
 
 function App() {
   const [info, setInfo] = useState({});
