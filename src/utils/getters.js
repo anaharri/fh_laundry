@@ -10,11 +10,18 @@ export async function getUsers(setState) {
 }
 
 //Traer sábanas y toallas
-export async function getLinens(setState) {
+export async function getLinensForNewOrder(setState) {
   const q = query(
     collection(db, "linen"),
     where("status", "not-in", ["Lavadero - en proceso", "Lavadero - listo"])
   );
+  const linens = await getDocs(q);
+  const array = linens.docs.map((snap) => ({ ...snap.data(), id: snap.id }));
+  setState(() => array);
+}
+
+export async function getAllLinens(setState) {
+  const q = query(collection(db, "linen"));
   const linens = await getDocs(q);
   const array = linens.docs.map((snap) => ({ ...snap.data(), id: snap.id }));
   setState(() => array);

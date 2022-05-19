@@ -1,46 +1,19 @@
-import { addDoc, collection } from "firebase/firestore";
-import { useState } from "react";
-import { db } from "../firebaseconf.js";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Landing from "./Landing.js";
+import Sheets from "./Sheets.js";
+import NewOrder from "./NewOrder.js";
+import OrderDetail from "./OrderDetail.js";
 
 function App() {
-  const [info, setInfo] = useState({});
-
-  function handleChange(e) {
-    setInfo({ ...info, [e.target.name]: e.target.value });
-  }
-
-  function handleSubmit(e) {
-    e.preventDefault();
-
-    addDoc(collection(db, "users"), info)
-      .then((doc) => console.log("Document written with ID: ", doc.id))
-      .catch((e) => console.error("Error adding document: ", e));
-  }
-
   return (
-    <div className="App">
-      <h1>Hola mundo</h1>
-
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="first">First name:</label>
-        <input
-          type="text"
-          name="first"
-          value={info.first}
-          onChange={handleChange}
-        />
-        <br />
-        <label htmlFor="last">Last name:</label>
-        <input
-          type="text"
-          name="last"
-          value={info.last}
-          onChange={handleChange}
-        />
-        <br />
-        <input type="submit" value="Submit" />
-      </form>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route exact path="/list" element={<Sheets />} />
+        <Route path="/orders/detail" element={<OrderDetail />} />
+        <Route path="/orders/new" element={<NewOrder />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

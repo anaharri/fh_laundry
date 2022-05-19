@@ -1,21 +1,33 @@
 import { useEffect, useState } from "react";
-import { getLinens } from "../utils/getters.js";
+import { useNavigate } from "react-router-dom";
+import { getAllLinens } from "../utils/getters.js";
 
 export default function Sheets() {
   const [linens, setLinens] = useState();
+  const navigate = useNavigate();
 
   useEffect(() => {
-    getLinens(setLinens);
+    getAllLinens(setLinens);
   }, []);
+
+  function clickRedirect() {
+    navigate("/orders/new");
+  }
   return (
     <div>
-      {linens?.map((u) => (
-        <div key={u.id}>
-          <h1>Sábanas del departamento #{u.id}</h1>
-          <h2>Sábanas: {u.bedsheets}</h2>
-          <h2>Toallas: {u.towels}</h2>
-        </div>
-      ))}
+      <button onClick={clickRedirect}>Registrar nuevo pedido</button>
+      <h1>Sábanas:</h1>
+      {linens
+        ?.map((u) => ({ ...u, id: Number(u.id) }))
+        .sort((a, b) => a.id - b.id)
+        .map((u) => (
+          <div key={u.id}>
+            <h2>
+              Sábanas del departamento #{u.id} <span>{u.status}</span>
+            </h2>
+            <hr />
+          </div>
+        ))}
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
-import { getLinens, getUsers } from "../utils/getters.js";
+import { getLinensForNewOrder, getUsers } from "../utils/getters.js";
 import { placeOrder } from "../utils/setters.js";
+import { useNavigate } from "react-router-dom";
 
 export default function NewOrder() {
   //el listado de sabanas y users eventualmente debería traerse desde Context
@@ -12,9 +13,10 @@ export default function NewOrder() {
     linens: [],
     userId: "",
   });
+  const navigate = useNavigate();
 
   useEffect(() => {
-    getLinens(setLinen);
+    getLinensForNewOrder(setLinen);
     getUsers(setUsers);
   }, []);
 
@@ -23,6 +25,7 @@ export default function NewOrder() {
     console.log(order);
     placeOrder(order);
     setOrder({});
+    navigate("/orders/detail");
   }
 
   function handleInputChange(e) {
@@ -44,7 +47,7 @@ export default function NewOrder() {
       <form onSubmit={handleSubmit}>
         <label htmlFor="linens">Seleccione departamentos:</label>
         <select name="linens" id="linens" onChange={selectApartments}>
-          <option disabled selected>
+          <option disabled defaultValue={"Deptos"}>
             Deptos
           </option>
           {linen?.map((item) => (
@@ -55,7 +58,7 @@ export default function NewOrder() {
         </select>
         <hr />
         <select name="userId" id="users" onChange={handleInputChange}>
-          <option disabled selected>
+          <option disabled defaultValue={"Responsable"}>
             Responsable
           </option>
           {users?.map((item) => (

@@ -10,7 +10,13 @@ export default function LoginForm() {
   }
 
   function handleSubmit(e) {
-      //incursionar en autenticación de firebase
+    //incursionar en autenticación de firebase
+    /*
+     "Registro" (agregar users a la db)
+      addDoc(collection(db, "users"), info)
+      .then((doc) => console.log("Document written with ID: ", doc.id))
+      .catch((e) => console.error("Error adding document: ", e));
+      */
   }
 
   return (
@@ -32,7 +38,7 @@ export default function LoginForm() {
         />
       </div>
       <label>Recordarme</label>
-      <input type="checkbox" name="rememberme"/>
+      <input type="checkbox" name="rememberme" />
       <div>
         <input type="submit" />
       </div>
